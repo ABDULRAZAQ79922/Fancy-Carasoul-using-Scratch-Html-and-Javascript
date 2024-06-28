@@ -15,7 +15,7 @@ body {
     height: 450px;
     overflow: hidden;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(28, 28, 28, 0.1);
 }
 
 .carousel-inner {
@@ -36,6 +36,7 @@ body {
 
 .carousel-control {
     position: absolute;
+    border-radius: 100%;
     top: 50%;
     transform: translateY(-50%);
     background-color: rgba(0,0,0,0.5);
@@ -43,7 +44,6 @@ body {
     color: white;
     padding: 10px;
     cursor: pointer;
-    border-radius: 50%;
     z-index: 1;
 }
 
